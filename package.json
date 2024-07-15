@@ -1,0 +1,24 @@
+{
+  "name": "go-vercel-server-less",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev1": "next dev",
+    "start1": "next start",
+    "build": "next build",
+    "lint": "next lint",
+		"setup": "yarn vercel login && yarn vercel link",
+		"start": "yarn vercel dev",
+		"dev": "yarn start"
+	},
+  "dependencies": {
+		"vercel": "^31.2.2",
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.2.5"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5"
+  }
+}
