@@ -17,7 +17,10 @@
 	"routes": [
 		{
 			"src": "/(.*)",
-			"dest": "/api"
+			"dest": "/app/api"
 		}
-	]
+	],
+	"github": {
+		"silent": true
+	}
 }
