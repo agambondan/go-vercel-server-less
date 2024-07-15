@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/agambondan/go-vercel-server-less/app/model"
+	model "github.com/agambondan/go-vercel-server-less/app/_model"
 )
 
 func Version(w http.ResponseWriter, r *http.Request) {
